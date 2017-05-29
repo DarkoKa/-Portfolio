@@ -1,0 +1,89 @@
+ body{
+	padding-top: 59px;
+} 
+
+/* ==== class for navbar ==== */
+.title_navbar {
+	color: #7FFF00 !important;
+	font-size: 15px;
+	font-family:  verdana, sans-serif;
+}
+ul li a:hover{
+	color: white !important;
+}
+#myNavbar{
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* ==== class for part one ==== */
+#divOne{
+	position: relative;
+}
+
+#sliderOnDivOne{
+	position: absolute;
+	top: 200px;
+	color: black;
+	border: 1px solid #7FFF00;
+	opacity: 0.9;
+	height: 193px;
+	background-color: #000;
+}
+#sliderText{
+    
+}
+
+li a:hover{
+	color: white !important;
+}
+
+.liMenu{
+	background-color: black;
+	color: #7FFF00;
+	opacity: 0.7;
+}
+	
+/* ==== class for part two ==== */
+
+#partTwo-div1{
+	background-color: red;
+}
+#partTwo-div2{
+	background-color: green;
+}
+
+
+
+
+/*media queries*/
+@media(max-width: 1200px) {
+
+}
+@media(min-width: 500px) {
+	#menuDivOne{
+	
+	}
+}
+@media(max-width: 500px){
+	#menuDivOne{
+		display: none;
+	}
+}
+
+
+/*#menuDivOne{
+	position: absolute;
+	top: 70px;
+	border-bottom: solid #7FFF00 1px;
+	background-color: black;
+	opacity: 0.7; */
+
+/*#oferujemy{
+	color: #7FFF00;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 10px; 	
+}*/
