@@ -24,15 +24,17 @@ ul li a:hover{
 
 #sliderOnDivOne{
 	position: absolute;
-	top: 200px;
+	top: 220px;
 	color: black;
-	border: 1px solid #7FFF00;
-	opacity: 0.9;
-	height: 193px;
-	background-color: #000;
+	height: 200px;
+	
 }
 #sliderText{
-    
+    font-size: 55px;
+    font-family: 'trebuchet ms';
+  	font-style: normal;
+  	font-weight: bolder;
+
 }
 
 li a:hover{
@@ -58,19 +60,20 @@ li a:hover{
 
 
 /*media queries*/
-@media(max-width: 1200px) {
+@media(max-width: 991px) {
+	#sliderOnDivOne{
+		position: relative;
+		background-color: black;
+		top: 0;
+		height: 100px;
+	}
+	#sliderText{
+		font-size: 25px;
+		padding-top: 20px;
+	}
 
 }
-@media(min-width: 500px) {
-	#menuDivOne{
-	
-	}
-}
-@media(max-width: 500px){
-	#menuDivOne{
-		display: none;
-	}
-}
+
 
 
 /*#menuDivOne{
