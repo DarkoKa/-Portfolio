@@ -1,0 +1,171 @@
+body {
+	width: 100%;
+	height: 700px;
+	margin: auto;
+	background-color: 	#FF1493;
+}
+
+
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	float: left;
+	padding-top: 22px;
+	padding-left: 5px;
+	/*padding-top: 5px;*/
+}	
+
+#logo h2 {
+	font-size: 38px;
+	font-weight: bold;
+	font-family: "Comic Sans MS",  sans-serif;
+	color: #fff;
+	margin: 0px;
+	font-style: italic;	
+	font-variant: small-caps;
+}
+
+.light_logo {
+	padding-left: 30px;
+	background: #275fac;
+}
+
+#logo a {
+	text-decoration: none;
+	border: 0px;
+}
+#logo h3{
+	font-size: 30px;
+	margin: 0px;
+	padding-left: 40px;
+	text-transform: capitalize;
+}
+
+#menu {
+	width: 600px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 280px;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	/*padding: 5px 5px 5px 5px;*/
+}
+
+#menu li {
+	display: block;
+	float: left;
+	font-family: Candara, Arial, Helvetica, sans-serif;
+}
+
+#menu a {
+	color: #fff;
+	font-size: 20px;
+	display: block;
+	float: left;
+	padding: 5px 15px 5px 5px;
+	text-shadow:2px 1px 1px rgba(0,0,0,1);
+    font-weight:normal;
+    font-variant:small-caps;
+    color:#fff;
+    text-align:center;
+    font-family:arial black, sans-serif;
+    line-height:2;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	color: #337ea1;
+}
+
+
+#header {
+	margin-top: 90px;
+	float: left;
+	width: 920px;
+	height: 380px;
+	background: #fff url(../images/header1.jpg) no-repeat;
+	border: 2px solid #fff;
+}
+
+#title_head {
+	float: left;
+	padding-top: 120px;
+	padding-left: 500px;
+}
+
+#title_head h2 {
+	color:#FF1493;
+	font-size: 38px;
+}
+
+#title_head p {
+	color: #FF1493;
+	font-size: 18px;
+	text-align: center;
+	padding-right: 20px;
+}
+
+#container {
+	float: left;
+	/*margin-bottom: 30px;*/
+	width: 970px;
+}
+
+#content {
+	float: left;
+	width: 940px;
+	text-align: justify;
+	margin-left: 285px;
+	margin-top: 30px;
+	line-height: 22px;
+	background-color: 	#FF1493;
+}
+
+#content_box {
+	width: 300px;
+	color: #fff;
+	text-shadow:1px 0px 1px rgba(0,0,0,1);
+	padding: 5px;
+	float: left;
+}
+
+#content_box h2 {
+	font-size: 20px;
+	font-weight: normal;
+	font-family:"Trebuchet MS", Tahoma, Arial, Helvetica, Sans-serif;
+	border-bottom:1px solid #fff;
+	color: #275fac;
+	padding:0 0 5px 0;
+}
+
+#content_box p {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+#content_box_rm {
+	float: right;
+}
+#footer {
+	width: 100%;
+	float: left;
+	font-size: 15px;
+	margin-left: 50px;
+	color: #fff;
+}
+#footer a {
+	color: #fff;
+}
